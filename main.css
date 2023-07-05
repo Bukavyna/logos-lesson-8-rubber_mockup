@@ -7,7 +7,7 @@
 
 .container {
 	width: 320px;
-	height: 5250px;
+/*	height: 5250px; */
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -578,7 +578,7 @@ h2 {
 
 	.container {
 		width: 768px;
-		height: 2800px;
+	/*	height: 2800px; */
 		margin: 0 auto;
 		display: flex;
 		flex-direction: column;
@@ -1043,7 +1043,7 @@ h2 {
 		.container {
 			width: 1240px;
 			margin: 0 auto;
-			height: 4000px;
+		/*	height: 4000px; */
 		}
 
 		.header {
@@ -1589,7 +1589,7 @@ h2 {
 	.container {
 		width: 1440px;
 		margin: 0 auto;
-		height: 5000px;
+		/*	height: 5000px; */
 	}
 
 	.header {
@@ -1638,7 +1638,7 @@ h2 {
 	.slider-left {
 		width: 720px;
 		height: 568px;
-		background-image: url("images/images-4/1-philip-martin-5aGUyCW_PJw-unsplash-min.png" );
+		background-image: url("images/images-4/1-philip-martin-5aGUyCW_PJw-unsplash-min.png");
 	}
 
 	.slider-right {
@@ -2144,3 +2144,4 @@ h2 {
 		font-family: Kanit, sans-serif;
 		font-weight: 300;
 	}
+}
