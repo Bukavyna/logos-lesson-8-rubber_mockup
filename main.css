@@ -7,7 +7,6 @@
 
 .container {
 	width: 320px;
-/*	height: 5250px; */
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -34,6 +33,7 @@ button {
 
 ul {
 	display: none;
+	list-style: none;
 }
 
 .menu {
@@ -42,23 +42,13 @@ ul {
 	margin-top: 3px;
 }
 
+
 .header-img {
 	width: 105px;
 	height: 20px;
 	margin-left: 97px;
 	margin-top: 3px;
 }
-/*
-.header-login {
-	margin-top: -2px;
-	width: 20px;
-}
-
-.header-login {
-	width: 105px;
-	height: 20px;
-	background-image: url("images/images-2/0-2-Group 13-min.png");
-} */
 
 .menu-linc {
 	width: 38px;
@@ -578,12 +568,10 @@ h2 {
 
 	.container {
 		width: 768px;
-	/*	height: 2800px; */
-		margin: 0 auto;
+		margin: -3px auto 0 0;
 		display: flex;
 		flex-direction: column;
 		flex-shrink: 0;
-		margin-top: -3px;
 	}
 
 	.header {
@@ -1589,7 +1577,6 @@ h2 {
 	.container {
 		width: 1440px;
 		margin: 0 auto;
-		/*	height: 5000px; */
 	}
 
 	.header {
@@ -1613,14 +1600,22 @@ h2 {
 		left: -470px;
 	}
 
+	button {
+		width: 24px;
+		height: 19px;
+		background-color: white;
+		background-image: url("images/images-4/cross (1).png");
+		background-size: 20px 20px;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 
-	.menu:hover ul {
+	 ul {
 		display: block;
 		width: 344px;
 		height: 359px;
 		margin-top: 70px;
 	}
-
 
 	main {
 		margin-top: 1px;
